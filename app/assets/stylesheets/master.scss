@@ -10,15 +10,18 @@ hr {
 }
 
 h1 {
-	 font-family: 'ostrich_sansmedium', serif;
-/*	font-family: 'Playfair Display', serif;*/
+	font-family: 'ostrich_sansmedium', serif;
 	font-weight: bold;
 	font-size: 48px;
 }
 
 h2 {
 	font-family: 'ostrich_sansmedium', serif;
-/*	font-family: 'Playfair Display', serif;*/
+}
+
+h2 span {
+	color: #dddddd;
+	font-family: 'ostrich_sansmedium', serif;
 }
 
 .clear {
@@ -60,8 +63,13 @@ h2 {
 	font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
 }
 
+.about a {
+	color: #f84342;
+}
+
 .links {
 	padding-top: 26px;
+	text-align: left;
 }
 
 .links a {
@@ -87,4 +95,19 @@ h2 {
 
 .footer-blurb a {
 	color: #f84342;
+}
+
+.modal {
+	font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+
+}
+
+@media (max-width: 750px) {
+	.footer-blurb {
+		text-align: left;
+	}
+}
+
+::selection {
+	background-color: #f84342;
 }
